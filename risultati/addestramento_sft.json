@@ -1,0 +1,12 @@
+{
+ "fase": "sft",
+ "base": "modelli/ita-cpt",
+ "dati": "dati/sft.jsonl",
+ "lotti": 2487,
+ "token": 14583936,
+ "lr": 0.0001,
+ "token_passo": 6144,
+ "accumula": 2,
+ "lora_r": 32,
+ "minuti": 34.8
+}

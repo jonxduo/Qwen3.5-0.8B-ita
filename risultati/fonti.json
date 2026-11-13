@@ -1,0 +1,48 @@
+{
+ "wikimedia/wikipedia 20231101.it": {
+  "licenza": "CC BY-SA 3.0 / GFDL",
+  "caratteri": 66002940,
+  "fase": "cpt"
+ },
+ "HuggingFaceFW/fineweb-2 ita_Latn": {
+  "licenza": "ODC-By 1.0",
+  "caratteri": 110002692,
+  "fase": "cpt"
+ },
+ "alberto98fx/Letteratura-Italiana": {
+  "licenza": "non dichiarata; testi di Project Gutenberg in pubblico dominio",
+  "caratteri": 2418048,
+  "fase": "cpt",
+  "blocchi_disponibili": 390
+ },
+ "HuggingFace-Italian-Community/ITA-Base": {
+  "licenza": "Apache 2.0",
+  "esempi": 16,
+  "fase": "sft"
+ },
+ "DeepMount00/italian_conversations": {
+  "licenza": "CC (variante non specificata nella scheda)",
+  "esempi": 9000,
+  "fase": "sft"
+ },
+ "efederici/capybara-claude-15k-ita": {
+  "licenza": "MIT",
+  "esempi": 6000,
+  "fase": "sft"
+ },
+ "DanielSc4/alpaca-cleaned-italian": {
+  "licenza": "CC BY 4.0",
+  "esempi": 6000,
+  "fase": "sft"
+ },
+ "crux82/squad_it": {
+  "licenza": "non dichiarata nel dataset; SQuAD originale CC BY-SA 4.0",
+  "esempi": 7000,
+  "fase": "sft"
+ },
+ "efederici/evol-dpo-ita": {
+  "licenza": "Apache 2.0",
+  "esempi": 8000,
+  "fase": "orpo"
+ }
+}

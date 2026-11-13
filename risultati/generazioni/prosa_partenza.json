@@ -1,0 +1,345 @@
+{
+ "modello": "modelli/wsp",
+ "perplessita": {
+  "ufficio (scritti a mano, mai visti)": 16.23,
+  "wikipedia tenuta da parte": 15.35,
+  "web tenuto da parte": 25.71
+ },
+ "loss_risposte_istruzioni": 1.8415,
+ "preferita_piu_probabile": 0.42,
+ "generazioni": [
+  {
+   "id": "g01",
+   "tipo": "email",
+   "prompt": "Scrivi un'email formale a un cliente per comunicare che la consegna dell'ordine subirà un ritardo di una settimana a causa di un problema del fornitore. Scusati e proponi una nuova data.",
+   "risposta": "Ecco una bozza formale, professionale e chiara pronta per essere adattata al tuo caso specifico.\n\n***\n\n**Oggetto:** Comunicazione di ritardo: Conferma della consegna ordine [Numero Ordine]\n\nGentile [Nome Cliente],\n\nIn qualità di [Tuo Nome/Firma], il responsabile delle attività logistico-commerciale, mi scrivo con la speranza di un cordiale riscontro riguardo alla vostra richiesta.\n\nCon la presente, vorrei segnalare una discreta situazione che ha reso necessario valutare l'inserimento nella nostra agenda. Il nostro fornitore ha comunicato che, a seguito di un incidente o di un problema tecnico rilevante durante le operazioni di spedizione, sarà impossibile consegnare l'ordine subito [numero ordine].\n\nPer quanto riguarda gli aspetti finanziari, la merce è stata già acquisita e si trova in attesa presso il magazzino. Tuttavia, poiché il tempo di disponibilità del prodotto è stato compromesso, non è possibile procedere alla conferma di pagamento fino all'esecuzione definitiva dei lavori.\n\nIl termine di validità del servizio è quindi limitato dalla durata del ritardo di una settimana. Per garantire la continuità operativa e rispettare i termini concordati, noi abbiamo deciso di propongervi la seguente alternative:\n\n1.  **Riduzione del pagamento:** La maggior parte dei costi (es. IVA, spese di spedizione) viene rimborsata interamente entro [Data Date] prima della fine del periodo di prova.\n2.  **Tempo di attesa:** Durante questo breve intervallo, se la merce rimane in magazzino, restituirete il",
+   "troncata": true,
+   "indici": {
+    "parole": 218,
+    "gulpease": 49.36697247706422,
+    "ttr100": 0.81,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g02",
+   "tipo": "email",
+   "prompt": "Scrivi un'email a un collega per chiedergli di inviarti entro venerdì i dati di vendita del mese scorso. Tono cordiale ma professionale.",
+   "risposta": "Ecco una bozza di email adatta al tuo caso, mantenendo un tono professionale e rispettoso:\n\n***\n\n**Oggetto:** Invio dati vendite – Mese scorso [Inserire il numero della serie se necessario]\n\nCiao [Nome Cognome],\n\ngrazie per la tua disponibilità a condividere le informazioni richieste.\n\nPer quanto riguarda l'invio dei dati relativi alla vendita mensile del mese scorso, mi chiedo se ci fossero già disponibili o se potessi inviarti questi ultimi giorni? In tal modo avremmo potuto ottimizzare il nostro processo di analisi.\n\nTi auguro con stima anche in questo periodo.\n\nSaluti,\n\n[Tuo Nome]\n[Tua Funzione]\n[Il tuo Team/Departamento]\n\n---\n\n### Consigli extra prima di inviare:\n*   **Personalizzazione:** Assicurati di sostituire `[Inserire il numero della serie]` con il riferimento specifico (es. 2023) se hai una serie interna che ti permette di identificare meglio il destinatario.\n*   **Tempo:** Se hai già un calendario disponibile, puoi aggiungere una nota specifica come \"sebbene non siano disponibili ancora, spero di essere in grado di fornirli entro questa settimana\".",
+   "troncata": false,
+   "indici": {
+    "parole": 156,
+    "gulpease": 48.743589743589745,
+    "ttr100": 0.85,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.013071895424836555,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g03",
+   "tipo": "email",
+   "prompt": "Scrivi una breve email per confermare la partecipazione a una riunione fissata per martedì alle 15 e chiedere l'ordine del giorno.",
+   "risposta": "Ecco un modello di email pronto all'uso:\n\n***\n\n**Oggetto:** Conferma partecipazione – Riunione martedì 15:00 – Ordine del giorno\n\nCiao [Nome del responsabile],\n\nSono felice di confermare che sono disponibile per partecipare alla riunita fissata in data **martedì, 15 marzo alle ore 15**.\n\nPer quanto riguarda gli elementi della riunione, mi chiedo se ci sia bisogno di una **revisione dell'ordine del giorno**. In caso contrario, posso procedere con lo svolgimento direttamente dal punto di partenza.\n\nQuindi, per favore, scriverò le informazioni su chi sarà presente (es. [Nome Azienda] o colleghi) e ti risponderò via email.\n\nGrazie per la collaborazione.\n\nCordiali saluti,\n\n[Tuo Nome]  \n[Il tuo ruolo/Responsabile]  \n[La tua azienda]  \n[Sei presente? O hai già la lista?]",
+   "troncata": false,
+   "indici": {
+    "parole": 111,
+    "gulpease": 57.82882882882883,
+    "ttr100": 0.83,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g04",
+   "tipo": "email",
+   "prompt": "Scrivi un'email formale di sollecito per una fattura non pagata, scaduta da trenta giorni. Tono fermo ma cortese.",
+   "risposta": "Ecco una bozza formale e professionale adatta a essere inviata all'azienda che ha gestita la fattura.\n\n***\n\n**Oggetto: Richiesta urgente di risarcimento per mancato pagamento della fattura [Numero fattura] – Data scadenza 30/12/202X (o data effettiva)**\n\nStimato Signor/a [Nome dell'Azienda],\n\nin riferimento alla fattura n.[numero] del [data di emissione], il presente è inviato come atto formale per richiedere l'immediata risoluzione dei controversi in materia di costi sostenuti dal cliente per gli interventi di manutenzione e lavori di ristrutturazione effettuati durante il periodo di utilizzo [periodo di durata].\n\nIl ritardo nell'esecuzione delle opere è stato aggravato dalla mancata presentazione di documenti necessari alla regolarizzazione del conto corrente e dall'inadempienza al requisito di consegna degli scavi previsti, che hanno reso impossibile la gestione corretta del servizio. Tale situazione rappresenta un danno irreparabile per entrambe le parti e costituisce un evento di inadempimento grave che richiede una risoluzione rapida e precisa.\n\nÈ altresì rilevante precisare che i tempi di transazione sono stati eccessivamente lunghi, innescando una perdita di valore significativa. La natura di questo caso comporta un obbligo di adempimento immediato per evitare ulteriori danni alle relazioni commerciali.\n\nVi si chiede pertanto di procedere entro [giorno specifico, es. oggi stesso o entro la prossima settimana] con un piano d'azione dettagliato, includendo:\n*",
+   "troncata": true,
+   "indici": {
+    "parole": 208,
+    "gulpease": 41.64423076923077,
+    "ttr100": 0.77,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g05",
+   "tipo": "email",
+   "prompt": "Scrivi un'email al responsabile per chiedere tre giorni di ferie la prossima settimana, spiegando che il lavoro in corso sarà coperto da un collega.",
+   "risposta": "Ecco una bozza professionale e cordiale per l'email:\n\n***\n\n**Oggetto:** Chiamata a breve: richiesta di 3 giorni di ferie per [Tuo Nome Cognome]\n\nGentile Responsabile,\n\ncon grande piacere vi scrivo per richiedere i prossimi **tre giorni di ferie**.\n\nHo appena iniziato le attività lavorative e sono preoccupato per non poterle svolgere completamente prima della fine del periodo di malattia previsto (o per motivi personali urgenti). Per questo motivo, ho deciso di delegare alcune responsabilità alla mia collaboratrice **[Nome Collaboratore]**, che ha già confermato disponibilità. In base alle condizioni di questa collaborazione, sarà possibile organizzare le ferie entro la sera di **[Data Data]**.\n\nSono molto gratificato di aver ricevuto il supporto necessario per gestire il carico di lavoro mentre si tengono le vacanze. Attendo conferma scritta dalla vostra parte per procedere con la prenotazione delle strutture.\n\nResto a disposizione per qualsiasi chiarimento o per aggiornarvi sui tempi di chiusura.\n\nCordiali saluti,\n\n[Tuo Nome e Cognome]\n[Sei tu il tuo ruolo? Es: Responsabile del progetto / Team Lead]\n[Tua Azienda]\n[Punto di contatto se necessario]",
+   "troncata": false,
+   "indici": {
+    "parole": 170,
+    "gulpease": 50.1764705882353,
+    "ttr100": 0.81,
+    "gerundio_iniziale": 0.1111111111111111,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g06",
+   "tipo": "sintesi",
+   "prompt": "Riassumi il testo seguente in tre punti.\n\nIl Comune ha approvato ieri il nuovo piano della mobilità, che prevede la creazione di dodici chilometri di piste ciclabili entro il 2028 e la chiusura al traffico privato di una parte del centro storico. Secondo l'assessore, l'obiettivo è ridurre del venti per cento le emissioni legate ai trasporti. I commercianti della zona hanno espresso preoccupazione per il possibile calo dei clienti e chiedono parcheggi di scambio ai margini dell'area pedonale. Il piano costerà circa otto milioni di euro, finanziati per metà con fondi europei. I lavori cominceranno in primavera e saranno divisi in tre fasi, per limitare i disagi ai residenti.",
+   "risposta": "*   Il Comune ha approvato un nuovo piano di mobilità che prevede l'apertura di dieci chilometri di piste ciclabili fino all'anno 2028 e la chiusura parziale del centro storico al traffico privato;\n* L'obiettivo principale del progetto è ridurre significativamente le emissioni di gas a effetto serra associate ai trasporti pubblici;\n* I lavori sono stati suddivisi in tre fasi per minimizzare gli effetti negativi sui residenti e garantire la sicurezza degli utenti.",
+   "troncata": false,
+   "indici": {
+    "parole": 69,
+    "gulpease": 37.84057971014493,
+    "ttr100": 0.9130434782608695,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g07",
+   "tipo": "sintesi",
+   "prompt": "Riassumi in due frasi il seguente verbale.\n\nVerbale della riunione del 3 marzo. Presenti: Rossi, Bianchi, Verdi. Si è deciso di rinviare il lancio del nuovo portale clienti dal 15 aprile al 6 maggio, perché i test di sicurezza non sono ancora conclusi. Bianchi preparerà entro il 20 marzo un piano di comunicazione per i clienti. Verdi verificherà con il fornitore i tempi di consegna dei nuovi server. Il budget approvato per il progetto resta di 120.000 euro.",
+   "risposta": "Si è tenuta una riunione per discutere delle opzioni future e del budget del progetto. I partecipanti hanno assunto decisioni su un lancio premiato da due giorni e su una pianificazione comunicativa per il mese di marzo, mentre Verdi ha confermato la verifica dei tempi tecnici con il fornitore.",
+   "troncata": false,
+   "indici": {
+    "parole": 49,
+    "gulpease": 51.44897959183673,
+    "ttr100": 0.8775510204081632,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g08",
+   "tipo": "sintesi",
+   "prompt": "Riassumi in modo chiaro, per una persona non esperta, le condizioni principali di questo contratto.\n\nContratto di locazione. Il canone annuo è di 18.000 euro, da versare in rate trimestrali anticipate. La durata è di sei anni a decorrere dal primo gennaio 2026, con rinnovo tacito per uguale periodo salvo disdetta da comunicare con raccomandata almeno dodici mesi prima della scadenza. Le spese di manutenzione ordinaria sono a carico del conduttore, quelle straordinarie a carico del locatore.",
+   "risposta": "Ecco un riassunto semplice e diretto delle condizioni chiave del tuo contratto:\n\n**La situazione fondamentale:**\nIl contratto si tratta di **locazione**, quindi il proprietario (locatore) ha l'obbligo di pagare il denaro che ti restituisce ogni anno. Tuttavia, la regola principale qui è che i soldi non vengono pagati subito; devono essere preposti anticipatamente.\n\n**I dettagli finanziari:**\n*   **Costo annuale:** 18.000 €\n*   **Tasse:** I pagamenti vanno effettuati quarterly (quattro volte all'anno), ma non necessariamente immediatamente dopo la data di scadenza.\n\n**L'esecuzione pratica:**\n*   **Durata:** Si estende fino al **giugno 2034** (dal gennaio 2026). È un periodo di **sei anni**.\n*   **Soggetto alla scadenza:** Se non fai nulla, il contratto finisce automaticamente dopo diciotto mesi dalla data di scadenza.\n*   **Opzioni di rinnovo:** Puoi rinnovare il contratto se vuoi, ma devi farlo entro **dodici mesi** prima dell'ultimo giorno della scadenza attuale. Nel caso di rinnovo automatico, si ripete lo stesso periodo di sei anni senza dover chiedere mai più nulla.\n\n**In quali casi c'è differenza tra chi paga cosa?**\nÈ importante distinguere due tipi di costi, basandoti sul ruolo della casa:\n*   **Manutenzione ordinaria:** Pagato dal proprietario (se hai la casa).\n*   **Sp",
+   "troncata": true,
+   "indici": {
+    "parole": 181,
+    "gulpease": 51.87292817679558,
+    "ttr100": 0.82,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.005617977528089901,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g09",
+   "tipo": "sintesi",
+   "prompt": "Scrivi un titolo e un sommario di una riga per questo articolo.\n\nIl Comune ha approvato ieri il nuovo piano della mobilità, che prevede la creazione di dodici chilometri di piste ciclabili entro il 2028 e la chiusura al traffico privato di una parte del centro storico. Secondo l'assessore, l'obiettivo è ridurre del venti per cento le emissioni legate ai trasporti. I commercianti della zona hanno espresso preoccupazione per il possibile calo dei clienti e chiedono parcheggi di scambio ai margini dell'area pedonale. Il piano costerà circa otto milioni di euro, finanziati per metà con fondi europei. I lavori cominceranno in primavera e saranno divisi in tre fasi, per limitare i disagi ai residenti.",
+   "risposta": "Piano mobilità: nuovi percorsi pedonali e riduzione delle emissioni per il Comune.",
+   "troncata": false,
+   "indici": {
+    "parole": 12,
+    "gulpease": 56.5,
+    "ttr100": 1.0,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g10",
+   "tipo": "rag",
+   "prompt": "Contesto:\nVerbale della riunione del 3 marzo. Presenti: Rossi, Bianchi, Verdi. Si è deciso di rinviare il lancio del nuovo portale clienti dal 15 aprile al 6 maggio, perché i test di sicurezza non sono ancora conclusi. Bianchi preparerà entro il 20 marzo un piano di comunicazione per i clienti. Verdi verificherà con il fornitore i tempi di consegna dei nuovi server. Il budget approvato per il progetto resta di 120.000 euro.\n\nDomanda: Perché è stato rinviato il lancio del portale e a quale data?\nRispondi usando solo il contesto.",
+   "risposta": "Il lancio del portale è stato rinviato dal 15 aprile al 6 maggio in quanto i test di sicurezza non sono stati conclusi.",
+   "troncata": false,
+   "indici": {
+    "parole": 21,
+    "gulpease": 59.0,
+    "ttr100": 1.0,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g11",
+   "tipo": "rag",
+   "prompt": "Contesto:\nVerbale della riunione del 3 marzo. Presenti: Rossi, Bianchi, Verdi. Si è deciso di rinviare il lancio del nuovo portale clienti dal 15 aprile al 6 maggio, perché i test di sicurezza non sono ancora conclusi. Bianchi preparerà entro il 20 marzo un piano di comunicazione per i clienti. Verdi verificherà con il fornitore i tempi di consegna dei nuovi server. Il budget approvato per il progetto resta di 120.000 euro.\n\nDomanda: Chi deve preparare il piano di comunicazione ed entro quando?\nRispondi usando solo il contesto.",
+   "risposta": "Bianchi.",
+   "troncata": false,
+   "indici": {
+    "parole": 1,
+    "gulpease": 319.0,
+    "ttr100": 1.0,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 1.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g12",
+   "tipo": "rag",
+   "prompt": "Contesto:\nContratto di locazione. Il canone annuo è di 18.000 euro, da versare in rate trimestrali anticipate. La durata è di sei anni a decorrere dal primo gennaio 2026, con rinnovo tacito per uguale periodo salvo disdetta da comunicare con raccomandata almeno dodici mesi prima della scadenza. Le spese di manutenzione ordinaria sono a carico del conduttore, quelle straordinarie a carico del locatore.\n\nDomanda: Con quanto preavviso va comunicata la disdetta?\nRispondi usando solo il contesto.",
+   "risposta": "In base al testo fornito, la durata del contratto è di **sei anni** (dal 1° gennaio 2026), e si prevede un rinnovo **tacitamente per uguale periodo**. Per le disdegni, lo stipendio deve essere comunicato \"con raccomandata almeno **dodici mesi** prima della scadenza\". Poiché il rinnovo avviene automaticamente ogni anno senza necessità di comunicazione specifica, la condizione per una disdetta non è applicabile nella forma prevista nel contratto stesso; l'obbligo di comunicazione tramite raccomandata è invece legato alla scadenza del termine del contratto originale o, se previsto, al rinnovo automatico. Tuttavia, considerando che il contratto ha termine di 6 anni, la domanda di disdetta sarebbe relativa all'esecuzione del pagamento del primo trimestre o alle condizioni generali, ma il requisito specifico di \"comunicazione previa\" con il numero indicato (dodici mesi) non c'entra direttamente perché il contratto non richiede tale comunicazione per il rinnovo automatico. Se il problema riguarda la possibilità di richiedere un risarcimento anticipato per mancato pagamento del primo trimestre, l'importo è stimato come il canone annuo meno i costi di gestione, ma la comunicazione richiesta rimane quella del secondo trimestre (o delle condizioni generali).\n\nTuttavia, riflettendo meglio sulla logica dei rinnovi taciti e sul rispetto del tempo richiesto:\nSe il contratto ha termine di **sedi anni**, la disdetta non può avvenire più di un anno dalla scadenza iniziale (il primo giorno di gennaio 2035), ma non è necessaria",
+   "troncata": true,
+   "indici": {
+    "parole": 224,
+    "gulpease": 41.455357142857146,
+    "ttr100": 0.75,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.013574660633484115,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g13",
+   "tipo": "rag_assente",
+   "prompt": "Contesto:\nContratto di locazione. Il canone annuo è di 18.000 euro, da versare in rate trimestrali anticipate. La durata è di sei anni a decorrere dal primo gennaio 2026, con rinnovo tacito per uguale periodo salvo disdetta da comunicare con raccomandata almeno dodici mesi prima della scadenza. Le spese di manutenzione ordinaria sono a carico del conduttore, quelle straordinarie a carico del locatore.\n\nDomanda: Qual è l'importo del deposito cauzionale?\nRispondi usando solo il contesto. Se la risposta non c'è, dillo.",
+   "risposta": "Il deposito cauzionale si calcola come la somma dell'intero contratto meno le spese di manutenzione ordinaria, ovvero 18.000 € - (spese manutenzione ordinaria).",
+   "troncata": false,
+   "indici": {
+    "parole": 20,
+    "gulpease": 41.0,
+    "ttr100": 0.85,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g14",
+   "tipo": "rag_assente",
+   "prompt": "Contesto:\nVerbale della riunione del 3 marzo. Presenti: Rossi, Bianchi, Verdi. Si è deciso di rinviare il lancio del nuovo portale clienti dal 15 aprile al 6 maggio, perché i test di sicurezza non sono ancora conclusi. Bianchi preparerà entro il 20 marzo un piano di comunicazione per i clienti. Verdi verificherà con il fornitore i tempi di consegna dei nuovi server. Il budget approvato per il progetto resta di 120.000 euro.\n\nDomanda: Chi è il fornitore dei nuovi server?\nRispondi usando solo il contesto. Se la risposta non c'è, dillo.",
+   "risposta": "Il fornitore dei nuovi server è stato specificato come **Verdi** nel testo.",
+   "troncata": false,
+   "indici": {
+    "parole": 12,
+    "gulpease": 64.83333333333333,
+    "ttr100": 1.0,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g15",
+   "tipo": "prosa",
+   "prompt": "Spiega in un paragrafo che cos'è una firma digitale e a che cosa serve.",
+   "risposta": "Una firma digitale è un metodo di verifica delle identità e dell'intenzione che utilizza la tecnologia della criptografia per garantire l'autenticità, l'unicità e la chiarezza dei dati inviati da un soggetto specifico. Quando un utente invia un documento o un messaggio con una chiave privata, tale firma viene verificato tramite un algoritmo computazionalmente sicuro che garantisce l'esistenza del mittente (dove il proprietario ha la chiave) e non il destinatario, eliminando così rischi come falsificazioni, inganni o errori umani. Questo processo funge da prova certificata che valida l'identità del trasmissore senza necessariamente richiedere l'accordo verbale diretto, rendendo i documenti digitali più sicuri e affidabili rispetto ai metodi tradizionali di trasmissione che spesso dipendono dall'autorizzazione umana diretta o dalla mancanza di supporto tecnico. In sintesi, serve a proteggere i contenuti contraffatti, garantire l'affidabilità delle comunicazioni ufficiali, facilitare le transazioni finanziarie sicure e assicurare che i documenti siano autentici prima di essere accettati o processati dal sistema, trasformando la fiducia nella rete in realtà operativa attraverso la tecnologia cryptografica avanzata.",
+   "troncata": false,
+   "indici": {
+    "parole": 167,
+    "gulpease": 33.37125748502994,
+    "ttr100": 0.82,
+    "gerundio_iniziale": 0.25,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g16",
+   "tipo": "prosa",
+   "prompt": "Riscrivi in italiano più chiaro e naturale: «Essendo il sistema stato aggiornato, gli utenti sono richiesti di effettuare il login nuovamente al fine di supportare le nuove funzionalità.»",
+   "risposta": "In seguito all'aggiornamento del sistema, è necessario che i visitatori accedano alla piattaforma con un nuovo accesso per poter sfruttare tutte le nuove funzioni disponibili.",
+   "troncata": false,
+   "indici": {
+    "parole": 25,
+    "gulpease": 41.4,
+    "ttr100": 1.0,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g17",
+   "tipo": "prosa",
+   "prompt": "Descrivi in poche righe i vantaggi del lavoro da remoto per un'azienda.",
+   "risposta": "Il lavoro remoto offre diverse opportunità chiave: maggiore flessibilità e autonomia, riduzione dei costi operativi grazie all'efficienza energetica e minimizzazione dei costi di gestione, creazione di una cultura aziendale più inclusiva che valorizza le competenze digitali, e potenzialmente migliori risultati produttivi a causa dell'immersione totale nella task.",
+   "troncata": false,
+   "indici": {
+    "parole": 47,
+    "gulpease": 28.574468085106382,
+    "ttr100": 0.8936170212765957,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g18",
+   "tipo": "prosa",
+   "prompt": "Scrivi un breve avviso per i dipendenti: lunedì l'ascensore sarà fuori servizio per manutenzione dalle 8 alle 12.",
+   "risposta": "Ecco una versione formale e chiara del messaggio da inviare ai dipendenti:\n\n***\n\n**Oggetto: Avviso di Interruzione Servizio Ascensori – Lunedì**\n\nGentili Dipendenti,\n\nin seguito alla manutenzione ordinaria delle infrastrutture, il servizio dell'ascensore verrà interrotto con **l'intervento dalle ore 08:00 alle ore 12:00**.\n\nPer garantire la massima sicurezza, le persone che necessitano di assistenza o devono rimanere a riposo durante questo periodo non potranno accedere all'ascensore.\n\nRestiamo in attesa della vostra collaborazione per eventuali indicazioni di supporto in caso di necessità.\n\nUn cordiale saluto,\n\n[Il Nome del Ufficio]\nUfficio Operazioni",
+   "troncata": false,
+   "indici": {
+    "parole": 86,
+    "gulpease": 41.325581395348834,
+    "ttr100": 0.8604651162790697,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g19",
+   "tipo": "prosa",
+   "prompt": "Spiega la differenza tra una fattura e una ricevuta.",
+   "risposta": "Nella maggior parte dei casi, **una fattura è un documento di credito** mentre una **ricevuta (o bonifico)** è un documento di pagamento. La loro funzione principale cambia completamente:\n\n*   **La Fattura**: È il documento che concede l'obbligo al cliente di pagare il fornitore per un servizio o un prodotto prestato. Non ci sono soldi in cambio; si tratta solo di confermare l'esistenza del contratto e i termini.\n*   **La Ricevuta/Bonifico**: È il documento che autorizza l'utente a ritirare denaro dal conto corrente del fornitore per compensare i pagamenti fatti in cambio di quel servizio. Qui si verifica un trasferimento di valore (debita vs. credito).\n\nEcco alcuni punti chiave per distinguere facilmente le due tipologie:\n\n### 1. Contenuto del documento\n| Caratteristica | Fattura | Ricevuta / Bonifico |\n| :--- | :--- | :--- |\n| **Contenuti principali** | Indirizzo della società, nome dell'azienda, numero di fatturazione, data di scadenza, importo totale e descrizione del servizio/prodotto. | Indirizzo della banca, nome dell'operatore, codice fiscale, intestazioni (Debitore/Contratto), indirizzo del destinatario, numero di ricevuta e importo specifico. |\n| **Motivo del documento** | Conferma del pagamento anticipato da parte del cliente all'interno della relazione commerciale. | Conferimento del pagamento effettuato per soddisfare un debito del fornitore. |\n\n###",
+   "troncata": true,
+   "indici": {
+    "parole": 184,
+    "gulpease": 50.19565217391305,
+    "ttr100": 0.67,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.011049723756906049,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  },
+  {
+   "id": "g20",
+   "tipo": "prosa",
+   "prompt": "Scrivi tre consigli per organizzare bene una riunione di lavoro.",
+   "risposta": "Ecco tre consigli pratici e strategici per organizzare un'efficace riunione di lavoro:\n\n1.  **Definisci i \"Rilevanti\" prima della giornata:** Organizza la riunione con l'intento specifico, non solo come \"una riunione\". Ricorda immediatamente al tuo team che il focus sarà su due o tre punti chiave (es. \"Come possiamo ottimizzare i tempi di consegna?\"), in cambio del tempo libero. Questo aiuta a evitare discussioni inutili e mantiene l'attenzione.\n\n2.  **Prepara materiali e dati in anticipo:** Non attendere che le persone si accorgano dei dettagli importanti durante la sessione. Prepara documenti, slide, report o appunti pronti da portare alla riunione. Se sei l'iniziatore, prepara anche la lista delle domande o dei follow-up necessari dopo la discussione, così puoi anticipare eventuali problemi di comunicazione.\n\n3.  **Sii flessibile ma strutturato:** Metti in atto uno schema chiaro (come la regola \"5 minuti all'inizio\") per guidare il gruppo verso lo scopo principale, mantenendo però la libertà di discussione quando necessario. Una buona organizzazione permette ai membri del team di concentrarsi sul loro lavoro reale invece di discutere sulla forma in cui sono organizzati.",
+   "troncata": false,
+   "indici": {
+    "parole": 174,
+    "gulpease": 54.747126436781606,
+    "ttr100": 0.84,
+    "gerundio_iniziale": 0.0,
+    "quadrigrammi_ripetuti": 0.0,
+    "non_latino": 0.0,
+    "emoji": 0
+   }
+  }
+ ],
+ "medie": {
+  "parole": 106.75,
+  "gulpease": 61.0163,
+  "ttr100": 0.8682,
+  "gerundio_iniziale": 0.0181,
+  "quadrigrammi_ripetuti": 0.0522,
+  "non_latino": 0.0,
+  "emoji": 0.0,
+  "troncate": 5,
+  "vuote": 0,
+  "con_caratteri_non_latini": 0,
+  "con_emoji": 0
+ }
+}

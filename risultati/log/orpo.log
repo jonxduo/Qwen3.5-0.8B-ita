@@ -1,0 +1,25 @@
+fase orpo: 8000 righe -> 1998 lotti, 9.8M token (compreso il riempimento)
+LoRA r=32: 148 moduli
+parametri addestrabili 20.2M, lr 3e-05
+lotto 100/1998 loss 1.3002 orpo 0.735 preferita_piu_probabile 0.48 lr 3.00e-05 6521 tok/s  trascorsi 1 min, restanti 24 min  picco 30 GB
+lotto 200/1998 loss 1.3294 orpo 0.708 preferita_piu_probabile 0.53 lr 2.97e-05 6551 tok/s  trascorsi 2 min, restanti 22 min  picco 32 GB
+lotto 300/1998 loss 1.3677 orpo 0.724 preferita_piu_probabile 0.52 lr 2.90e-05 6568 tok/s  trascorsi 4 min, restanti 21 min  picco 33 GB
+lotto 400/1998 loss 1.3636 orpo 0.700 preferita_piu_probabile 0.52 lr 2.80e-05 6562 tok/s  trascorsi 5 min, restanti 20 min  picco 33 GB
+lotto 500/1998 loss 1.3623 orpo 0.693 preferita_piu_probabile 0.53 lr 2.66e-05 6568 tok/s  trascorsi 6 min, restanti 19 min  picco 33 GB
+lotto 600/1998 loss 1.3732 orpo 0.687 preferita_piu_probabile 0.56 lr 2.49e-05 6566 tok/s  trascorsi 7 min, restanti 17 min  picco 33 GB
+lotto 700/1998 loss 1.3069 orpo 0.693 preferita_piu_probabile 0.58 lr 2.29e-05 6571 tok/s  trascorsi 9 min, restanti 16 min  picco 33 GB
+lotto 800/1998 loss 1.2793 orpo 0.662 preferita_piu_probabile 0.60 lr 2.07e-05 6574 tok/s  trascorsi 10 min, restanti 15 min  picco 33 GB
+lotto 900/1998 loss 1.3135 orpo 0.672 preferita_piu_probabile 0.60 lr 1.84e-05 6573 tok/s  trascorsi 11 min, restanti 14 min  picco 33 GB
+lotto 1000/1998 loss 1.3155 orpo 0.660 preferita_piu_probabile 0.59 lr 1.59e-05 6573 tok/s  trascorsi 12 min, restanti 12 min  picco 33 GB
+lotto 1100/1998 loss 1.3370 orpo 0.655 preferita_piu_probabile 0.62 lr 1.35e-05 6570 tok/s  trascorsi 14 min, restanti 11 min  picco 33 GB
+lotto 1200/1998 loss 1.3199 orpo 0.668 preferita_piu_probabile 0.59 lr 1.11e-05 6570 tok/s  trascorsi 15 min, restanti 10 min  picco 33 GB
+lotto 1300/1998 loss 1.2860 orpo 0.676 preferita_piu_probabile 0.60 lr 8.76e-06 6571 tok/s  trascorsi 16 min, restanti 9 min  picco 33 GB
+lotto 1400/1998 loss 1.2717 orpo 0.642 preferita_piu_probabile 0.62 lr 6.63e-06 6572 tok/s  trascorsi 17 min, restanti 7 min  picco 33 GB
+lotto 1500/1998 loss 1.2930 orpo 0.656 preferita_piu_probabile 0.60 lr 4.71e-06 6570 tok/s  trascorsi 19 min, restanti 6 min  picco 33 GB
+lotto 1600/1998 loss 1.3253 orpo 0.655 preferita_piu_probabile 0.58 lr 3.07e-06 6571 tok/s  trascorsi 20 min, restanti 5 min  picco 33 GB
+lotto 1700/1998 loss 1.3054 orpo 0.627 preferita_piu_probabile 0.63 lr 1.75e-06 6573 tok/s  trascorsi 21 min, restanti 4 min  picco 33 GB
+lotto 1800/1998 loss 1.3656 orpo 0.653 preferita_piu_probabile 0.57 lr 7.80e-07 6573 tok/s  trascorsi 22 min, restanti 2 min  picco 33 GB
+lotto 1900/1998 loss 1.2777 orpo 0.626 preferita_piu_probabile 0.66 lr 1.92e-07 6576 tok/s  trascorsi 24 min, restanti 1 min  picco 33 GB
+lotto 1998/1998 loss 1.2967 orpo 0.642 preferita_piu_probabile 0.62 lr 0.00e+00 6576 tok/s  trascorsi 25 min, restanti 0 min  picco 33 GB
+tensori protetti intatti: ['model.language_model.layers.15.mlp.down_proj.weight', 'model.language_model.layers.19.mlp.down_proj.weight']
+FINE orpo in 24.8 min -> modelli/ita-orpo

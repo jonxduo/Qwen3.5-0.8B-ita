@@ -1,0 +1,12 @@
+{
+ "fase": "cpt",
+ "base": "modelli/wsp",
+ "dati": "dati/cpt.jsonl",
+ "lotti": 4882,
+ "token": 29995008,
+ "lr": 1e-05,
+ "token_passo": 6144,
+ "accumula": 2,
+ "lora_r": null,
+ "minuti": 80.8
+}

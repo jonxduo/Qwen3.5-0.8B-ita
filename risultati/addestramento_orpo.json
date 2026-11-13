@@ -1,0 +1,12 @@
+{
+ "fase": "orpo",
+ "base": "modelli/ita-sft",
+ "dati": "dati/orpo.jsonl",
+ "lotti": 1998,
+ "token": 9764352,
+ "lr": 3e-05,
+ "token_passo": 6144,
+ "accumula": 2,
+ "lora_r": 32,
+ "minuti": 24.8
+}

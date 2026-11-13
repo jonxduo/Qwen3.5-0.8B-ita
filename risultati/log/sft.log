@@ -1,0 +1,30 @@
+fase sft: 27716 righe -> 2487 lotti, 14.6M token (compreso il riempimento)
+LoRA r=32: 148 moduli
+parametri addestrabili 20.2M, lr 0.0001
+lotto 100/2487 loss 1.6416 lr 1.00e-04 6972 tok/s  trascorsi 1 min, restanti 33 min  picco 25 GB
+lotto 200/2487 loss 1.7047 lr 9.96e-05 7011 tok/s  trascorsi 3 min, restanti 32 min  picco 25 GB
+lotto 300/2487 loss 1.5912 lr 9.82e-05 6965 tok/s  trascorsi 4 min, restanti 31 min  picco 25 GB
+lotto 400/2487 loss 1.6271 lr 9.61e-05 6981 tok/s  trascorsi 6 min, restanti 29 min  picco 25 GB
+lotto 500/2487 loss 1.6356 lr 9.32e-05 6992 tok/s  trascorsi 7 min, restanti 28 min  picco 25 GB
+lotto 600/2487 loss 1.5973 lr 8.95e-05 6998 tok/s  trascorsi 8 min, restanti 26 min  picco 25 GB
+lotto 700/2487 loss 1.6054 lr 8.51e-05 7004 tok/s  trascorsi 10 min, restanti 25 min  picco 25 GB
+lotto 800/2487 loss 1.6407 lr 8.02e-05 7011 tok/s  trascorsi 11 min, restanti 23 min  picco 25 GB
+lotto 900/2487 loss 1.5814 lr 7.47e-05 7013 tok/s  trascorsi 13 min, restanti 22 min  picco 25 GB
+lotto 1000/2487 loss 1.6188 lr 6.88e-05 6996 tok/s  trascorsi 14 min, restanti 21 min  picco 25 GB
+lotto 1100/2487 loss 1.5742 lr 6.25e-05 7001 tok/s  trascorsi 15 min, restanti 19 min  picco 25 GB
+lotto 1200/2487 loss 1.5919 lr 5.61e-05 6990 tok/s  trascorsi 17 min, restanti 18 min  picco 25 GB
+lotto 1300/2487 loss 1.6004 lr 4.95e-05 6994 tok/s  trascorsi 18 min, restanti 17 min  picco 25 GB
+lotto 1400/2487 loss 1.5523 lr 4.30e-05 6997 tok/s  trascorsi 20 min, restanti 15 min  picco 25 GB
+lotto 1500/2487 loss 1.5579 lr 3.66e-05 6999 tok/s  trascorsi 21 min, restanti 14 min  picco 25 GB
+lotto 1600/2487 loss 1.6007 lr 3.04e-05 7002 tok/s  trascorsi 22 min, restanti 12 min  picco 25 GB
+lotto 1700/2487 loss 1.5674 lr 2.45e-05 6994 tok/s  trascorsi 24 min, restanti 11 min  picco 25 GB
+lotto 1800/2487 loss 1.5460 lr 1.91e-05 6995 tok/s  trascorsi 25 min, restanti 10 min  picco 25 GB
+lotto 1900/2487 loss 1.6131 lr 1.42e-05 6987 tok/s  trascorsi 27 min, restanti 8 min  picco 25 GB
+lotto 2000/2487 loss 1.5503 lr 9.94e-06 6991 tok/s  trascorsi 28 min, restanti 7 min  picco 25 GB
+lotto 2100/2487 loss 1.5599 lr 6.36e-06 6994 tok/s  trascorsi 29 min, restanti 5 min  picco 25 GB
+lotto 2200/2487 loss 1.5774 lr 3.54e-06 6996 tok/s  trascorsi 31 min, restanti 4 min  picco 25 GB
+lotto 2300/2487 loss 1.5905 lr 1.52e-06 6990 tok/s  trascorsi 32 min, restanti 3 min  picco 25 GB
+lotto 2400/2487 loss 1.5697 lr 3.34e-07 6993 tok/s  trascorsi 34 min, restanti 1 min  picco 25 GB
+lotto 2487/2487 loss 1.5367 lr 0.00e+00 6994 tok/s  trascorsi 35 min, restanti 0 min  picco 25 GB
+tensori protetti intatti: ['model.language_model.layers.15.mlp.down_proj.weight', 'model.language_model.layers.19.mlp.down_proj.weight']
+FINE sft in 34.8 min -> modelli/ita-sft

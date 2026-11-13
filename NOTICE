@@ -1,0 +1,14 @@
+Qwen3.5-0.8B-ita
+
+Questo modello deriva da:
+  - Qwen/Qwen3.5-0.8B, Copyright Alibaba Cloud, licenza Apache 2.0
+    https://huggingface.co/Qwen/Qwen3.5-0.8B
+  - RikiyaT/Qwen3.5-0.8B-weight-space-programming, licenza Apache 2.0
+    https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming
+
+Modifiche (13 novembre 2026): i pesi del modello linguistico sono stati
+riaddestrati in tre fasi (pre-addestramento continuo su testo italiano,
+fine-tuning su istruzioni con LoRA, allineamento di preferenze ORPO con LoRA)
+sui dati elencati nel README. I tensori layers.15.mlp.down_proj e
+layers.19.mlp.down_proj, gli embedding, l'encoder visivo e il tokenizer sono
+invariati rispetto al secondo modello di origine.

@@ -1,0 +1,8 @@
+e2cc07557858774c89346a7ed4f19350ca3a60f835a0c63b51b98732b7c52607  gguf/ita-orpo-Q4_K_M.gguf
+c6dc57b1cbaea8bf09831ef550724ce91653b72698af90929a8baa0edfc9399e  gguf/ita-orpo-Q5_K_M.gguf
+85214b26fc0dcc0f8ca9a565b0e291e5b30a75263b0a8b4940dff37f373ef58e  gguf/ita-orpo-Q8_0.gguf
+b1a9b0f64b90ae30679e2a3cb00071a235d602d6d2f799f088bbc1f984092daa  gguf/ita-orpo-f16.gguf
+5e0ab2afc089862bf96fda33d275c7190a2a2c0dcb1b2ade5eb25579a730e6aa  gguf/ita-sft-Q4_K_M.gguf
+dae5d47b9c037b4f79f503a81908e247d5bbe44d78440b6ee139c8042fe8b677  gguf/ita-sft-Q5_K_M.gguf
+bce21acfb340b3d0494d2233153cd30b58a2709f8de39fa9d6b34e1cbc3f99a6  gguf/ita-sft-Q8_0.gguf
+fae8dc8b5f9453a23f213a94555254b96b4e543e9752308e682b211a5fd7c8d1  gguf/ita-sft-f16.gguf

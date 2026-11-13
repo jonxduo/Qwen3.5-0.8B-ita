@@ -1,0 +1,23 @@
+{
+  "$comment": "A1, bozza v0. Il modello copia, il parser calcola: data_iso e preavviso_giorni NON sono in questo schema. Ordine dei campi = ordine di generazione: prima la citazione.",
+  "type": "object",
+  "properties": {
+    "scadenze": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "properties": {
+          "citazione": {"type": "string", "minLength": 5, "maxLength": 300},
+          "tipo": {"type": "string", "enum": ["scadenza_contratto", "rinnovo", "disdetta", "pagamento", "consegna", "adempimento", "altro"]},
+          "espressione_originale": {"type": "string", "minLength": 2, "maxLength": 120},
+          "evento_di_riferimento": {"type": ["string", "null"], "maxLength": 120}
+        },
+        "required": ["citazione", "tipo", "espressione_originale", "evento_di_riferimento"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["scadenze"],
+  "additionalProperties": false
+}
